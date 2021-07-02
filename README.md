@@ -1,8 +1,6 @@
 # thie
 Thie Crack Limited Edition
 
-# thie
-
 <img src="https://github.com/Ramdhan7/thie/blob/main/reviewthie.png" width="640" title="Menu" alt="Menu">
 
 ### Install :
