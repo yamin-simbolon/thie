@@ -137,7 +137,7 @@ class gas:
         os.system('clear')
         print(pu)
         cowsay.cow(f'{pu}Hallo: {acak}{name}{pu}\t\t\nYour Ip: {i}{ip}{pu}\t')
-        print(f'\n\t[ CODED BY:{b} RAMDHAN RAMADHIAN XD. {pu}]\n\t\tBeff Crack Version: 1.5\n\nPilih Metode Crack!\n\n[1]. {b}Crack Daftar Teman{pu}\n[2]. {b}Crack Dari Followers{pu}\n[3]. {b}Crack Dari Like Postingan{pu}\n[4]. {b}Settings Useragent{pu}\n[{m}L{pu}]. {b}Logout Account (Hapus Token){pu}\n')
+        print(f'\n\t[ CODED BY:{b} RAMDHAN RAMADHIAN XD. {pu}]\n\t\tThie Crack Limited Edition: 1.5\n\nPilih Metode Crack!\n\n[1]. {b}Crack Daftar Teman{pu}\n[2]. {b}Crack Dari Followers{pu}\n[3]. {b}Crack Dari Like Postingan{pu}\n[4]. {b}Settings Useragent{pu}\n[{m}L{pu}]. {b}Logout Account (Hapus Token){pu}\n')
         p=input(f'{pu}[+] Select:{b} ')
         if(p in ('01','1')):
             print(f'\n\t{pu}[ Crack Daftar Teman ]\n')
